@@ -1,0 +1,181 @@
+body{
+  font-family: 'Montserrat';
+}
+
+h2{
+  font-family: 'Rubik', sans-serif;
+}
+
+#testimony, #press, #pricing, #call-to-action, #footer, .feature-box{
+  text-align: center;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem !important;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  font-size: 2.5rem !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-item{
+  padding: 0px 18px;
+}
+
+.nav-link{
+  font-size: 1.4rem !important;
+  font-family: 'Rubik', Helvetica, sans-serif;
+}
+
+/* Title */
+
+#title{
+  background-color: #bd622d;
+  color: #fff;
+}
+
+.head-title, .cta-header{
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+ padding: 3% 15% 7% !important;
+}
+
+.title-image{
+  width: 22%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* Download Buttons */
+
+.apple-button, .google-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.feature-text{
+  color: #8f8f8f;
+}
+
+.feature_icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature_icon:hover{
+  color: #bd622d;
+}
+
+/* Testimonials */
+
+#testimony{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testi-text{
+  font-family: 'Rubik', Helvetica, sans-serif;
+  font-size: 3rem;
+}
+
+.testi-img{
+  width: 15%;
+  border-radius: 70%;
+  margin: 20px;
+}
+
+/* Press */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+}
+
+.card_column{
+  padding: 3% 2%;
+}
+
+.pricing-header{
+  font-size: 3.5rem;
+  font-family: 'Rubik', Helvetica, Arial, sans-serif;
+}
+
+.price-tag{
+  font-size: 1.5rem; 
+  color: rgb(84, 84, 84);
+}
+
+.tagss{
+  font-size: 20px;
+}
+
+.price-head{
+  font-weight: bold;
+}
+
+/* Call to Action */
+
+#call-to-action{
+  background-color: #bd622d;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+/* Footer */
+#footer{
+  padding: 7% 15%;
+}
+
+.socials{
+  margin: 20px 10px;
+  font-size: 30px;
+}
+@media (max-width: 993px){
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+    width: 60%;
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
